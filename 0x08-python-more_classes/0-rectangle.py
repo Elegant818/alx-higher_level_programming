@@ -1,10 +1,7 @@
 #!/usr/bin/python3
 
-""" This module cover one function, and no extra module is imported """
+"""A class defining a rectangle"""
 
-
-def read_file(filename=""):
-    """ Reads a text file """
-    with open(filename, 'r', encoding='utf-8') as f:
-        content = f.read()
-        print(content, end="")
+class Rectangle:
+    """An empty class representing a rectangle"""
+    pass
